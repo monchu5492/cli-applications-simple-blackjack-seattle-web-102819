@@ -58,11 +58,11 @@ def runner
 welcome
 initial_round
 number = get_user_input
-hit?(number)
-display_card_total(hit?)
-  until 
-  hit?(number) > 21
-  end_game
- end
+  hit?(number)
+  display_card_total(hit?)
+    until 
+    hit?(number) > 21
+    end_game
+  eend
 end
     
