@@ -62,6 +62,7 @@ display_card_total()
   while 
   hit? <= 21
   end_game
- end 
+ end
+ runner
 end
     
